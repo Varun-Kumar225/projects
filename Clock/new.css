@@ -1,0 +1,200 @@
+*{box-sizing:border-box;}
+body{background-color:#acbaca;font-size: 20px;}
+.c1 {
+     height: 300px;
+     width: 300px;
+     position: absolute;
+     top: 170px;
+     left: 750px;
+     background-color: #c9d5e0;
+     border-radius: 45px;
+     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.15), inset 10px 10px 10px 0px rgba(255,255,255,0.75), -10px -10px 20px 0px rgba(255,255,255,0.55), inset -1px -1px 10px 0px rgba(0,0,0,0.2);
+ }
+    
+ .c2 {
+     height: 50px;
+     width: 200px;
+     background-color: #acbaca;
+     border-radius: 5px;
+     margin-left: 50px;
+     box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.15), inset 0px 16px 10px -8px rgba(255,255,255,0.75), 1px 1px 1px 0px rgba(255,255,255,0.55), inset 0px 0px 0px 0px rgba(0,0,0,0.2);
+ }
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ .cl {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-color: #152b4a;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    box-shadow: 3px 3px 4px 0px #152b4a66, inset 2px 2px 3px 2px rgba(255,255,255,0.55), -2px -2px 8px 2px rgba(255,255,255,1), inset 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+.t1 {
+    display: inline-block;
+    font-family: arial;
+    position: absolute;
+    top: 0px;
+    left: 83.6px;
+    color: white;
+}
+.t2 {
+    display: inline-block;
+    font-family: arial;
+    position: absolute;
+    top: 83.6px;
+    left: 176.3px;
+    color: white;
+}
+.t3 {
+    display: inline-block;
+    font-family: arial;
+    position: absolute;
+    top: 169.3px;
+    left: 89.3px;
+    color: white;
+}
+.t4 {
+    display: inline-block;
+    font-family: arial;
+    position: absolute;
+    top: 83.6px;
+    left: 4px;
+    color: white;
+}
+.co {
+    height: 146px;
+    width: 146px;
+    background: linear-gradient(#6262fd,#ff1b7f);
+    position: absolute;
+    border-radius: 50%;
+    top: 22px;
+    left: 22px;
+    animation:anico 2s linear infinite;
+}
+@keyframes anico{0%{transform: rotate(360deg);}100%{transform: rotate(0deg);}}
+
+.center {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 142px;
+    width: 142px;
+    border-radius: 50%;
+    background-color: #152b4a;
+}
+#ds{height: 142px;width: 142px;animation: s 60s steps(60) 1s infinite none;position: absolute;}
+@keyframes s {0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
+
+#dm{height: 142px;width: 142px;animation: s 3600s steps(3600) 1s infinite none;position: absolute;}
+@keyframes m {0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
+
+#dh{height: 142px;width: 142px;animation: s 43200s steps(43200) 1s infinite none;position: absolute;}
+@keyframes h {0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+ .c3{height: 50px;width: 200px;background-color: #acbaca;border-radius: 5px;margin-left: 50px;margin-top: 200px;
+     box-shadow: -1px -1px 1px 0px rgba(0,0,0,0.15),
+      inset 0px 0px 0px 0px rgba(255,255,255,0.75), 
+      1px 0px 1px 0px rgba(255,255,255,0.55),
+       inset 0px -11px 10px -10px rgba(0,0,0,0.2);
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.a1 {
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     top: 265px;
+     left: 540px;
+     background-color: #c9d5e0;
+     border-radius: 10px;
+     box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.15), inset 3px 3px 3px 0px rgba(255,255,255,0.75), -4px -4px 6px -1px rgba(255,255,255,0.55), inset -1px -1px 0px 0px rgba(0,0,0,0.2);
+ }
+
+ .a2 {
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     top: -80px;
+     left: 358px;
+     background-color: #c9d5e0;
+     border-radius: 20px;
+     box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.15), inset 3px 3px 3px 0px rgba(255,255,255,0.75), -4px -4px 6px -1px rgba(255,255,255,0.55), inset -1px -1px 0px 0px rgba(0,0,0,0.2);
+ }
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/  
+ .a3 {
+     height: 220px;
+     width: 220px;
+     position: absolute;
+     top: 319px;
+     left: 191px;
+     background-color: #c9d5e0;
+     border-radius: 25px;
+     box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.15), inset 3px 3px 3px 0px rgba(255,255,255,0.75), -4px -4px 6px -1px rgba(255,255,255,0.55), inset -1px -1px 0px 0px rgba(0,0,0,0.2);
+ }  
+ #p1 {
+    display: inline-block;
+    position: absolute;
+    top: 31px;
+    left: 58px;
+    font-size: 27px;
+    color: #b3c2c2;
+    font-family: arial;
+}
+ #p2 {
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: 55px;
+    font-size: 67px;
+    color: #ff1b7f;
+    font-family: arial;
+}     
+ #p3 {
+    display: inline-block;
+    position: absolute;
+    top: 66px;
+    left: 4px;
+    transform: rotate(-90deg);
+    font-size: 23px;
+    color: #6262fd;
+    font-family: arial;
+}    
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{8.333%{content:01} 16.666%{content:02} 24.999%{content:03} 33.332%{content:04} 41.665%{content:05} 49.998%{content:06} 58.331%{content:07} 66.664%{content:08} 74.997%{content:09} 83.330%{content:10} 91.663%{content:11} 99.996%{content:12}}*/
+
+/*1.666%{content:01} 3.332%{content:02} 4.998%{content:03} 6.664%{content:04} 8.330%{content:05} 9.996%{content:06} 11.662%{content:07} 13.328%{content:08} 14.994%{content:09} 16.660%{content:10} 18.326%{content:11} 19.992%{content:12}
+21.658%{content:13} 23.324%{content:14} 24.990%{content:15} 26.656%{content:16} 28.332%{content:17} 29.988%{content:18} 31.654%{content:19} 33.320%{content:20} 34.986%{content:21} 36.652%{content:22} 38.318%{content:23} 39.984%{content:24}
+41.650%{content:25} 43.316%{content:26} 44.982%{content:27} 46.648%{content:28} 48.314%{content:29} 49.980%{content:30} 51.646%{content:31} 53.312%{content:32} 54.978%{content:33} 56.644%{content:34} 58.310%{content:35} 59.976%{content:36}
+61.642%{content:37} 63.308%{content:38} 64.974%{content:39} 66.640%{content:40} 68.306%{content:41} 69.972%{content:42} 71.638%{content:43} 73.304%{content:44} 74.970%{content:45} 76.636%{content:46} 78.302%{content:47} 79.968%{content:48}
+81.634%{content:49} 83.300%{content:50} 84.966%{content:51} 86.632%{content:52} 88.298%{content:53} 89.964%{content:54} 91.630%{content:55} 93.296%{content:56} 94.962%{content:57} 96.628%{content:58} 98.294%{content:59} 99.960%{content:60}#2196f3,#e91e63 */
+    
+    
+    
+    
+    
+     
+     
+
+                       
+    
+    
